@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f0f0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  background-color: #53a2e2;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  text-align: center;
+}
+
+.box h2{
+  margin-top: 0;
+}
+
+.box p{
+  margin: 2rem;
+}
+
+.box button{
+  background-color: grey;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+
+.box button:active{
+  transform: scale(0.93);
+}
+
+.box button:focus{
+  outline: none;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#container > button {
+  background-color: green;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px 10px 20px 10px;
+  width: 20%;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.1s linear;
+  justify-content: center;
+  height: max-content;
+  position: relative;
+  overflow-x: auto;
+  min-width: 100px;
+}
+
+#container > button:active{
+  transform: scale(0.93);
+}
+
+#container > button:focus{
+  outline: none;
 }
