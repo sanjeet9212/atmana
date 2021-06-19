@@ -7,51 +7,67 @@ function App() {
 
   const newJoke = () => {
     if (cat==='Animal'){
+      // eslint-disable-next-line
       {animalJoke()}
     }
     else if (cat==='Career'){
+      // eslint-disable-next-line
       {careerJoke()}
     }
     else if (cat==='Celebrity'){
+      // eslint-disable-next-line
       {celebrityJoke()}
     }
     else if (cat==='Dev'){
+      // eslint-disable-next-line
       {devJoke()}
     }
     else if (cat==='Explicit'){
+      // eslint-disable-next-line
       {explicitJoke()}
     }
     else if (cat==='Fashion'){
+      // eslint-disable-next-line
       {fashionJoke()}
     }
     else if (cat==='Food'){
+      // eslint-disable-next-line
       {foodJoke()}
     }
     else if (cat==='History'){
+      // eslint-disable-next-line
       {historyJoke()}
     }
     else if (cat==='Money'){
+      // eslint-disable-next-line
       {moneyJoke()}
     }
     else if (cat==='Movie'){
+      // eslint-disable-next-line
       {movieJoke()}
     }
     else if (cat==='Music'){
+      // eslint-disable-next-line
       {musicJoke()}
     }
     else if (cat==='Political'){
+      // eslint-disable-next-line
       {politicalJoke()}
     }
     else if (cat==='Religion'){
+      // eslint-disable-next-line
       {religionJoke()}
     }
     else if (cat==='Science'){
+      // eslint-disable-next-line
       {scienceJoke()}
     }
     else if (cat==='Sports'){
+      // eslint-disable-next-line
       {sportJoke()}
     }
     else if (cat==='Travel'){
+      // eslint-disable-next-line
       {travelJoke()}
     }
     else{
